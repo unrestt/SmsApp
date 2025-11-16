@@ -15,7 +15,8 @@ The app is designed with **Material 3** components for a modern and smooth inter
   - Button to initiate a call (with runtime permission request)
   - Validation ensures a phone number is entered
   - Back button to return to the main activity
-  ![Call Activity](screenshots/call.png)
+    
+<img src="screenshots/call.png" width="300" />
 
 - **Email Activity**
   - Input for recipient email, subject, and message
