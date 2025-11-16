@@ -1,0 +1,68 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#fff"
+        app:iconTint="@android:color/white"
+        app:icon="@drawable/baseline_menu_24" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="100dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/baseline_sms_24"
+        android:backgroundTint="#FF5722"
+        app:tint="@android:color/white"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="180dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/baseline_mms_24"
+        android:backgroundTint="#FF5722"
+        app:tint="@android:color/white"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="260dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/baseline_mail_24"
+        android:backgroundTint="#FF5722"
+        app:tint="@android:color/white"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_option4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="340dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/baseline_call_24"
+        android:backgroundTint="#FF5722"
+        app:tint="@android:color/white"
+        />
+
+
+</merge>

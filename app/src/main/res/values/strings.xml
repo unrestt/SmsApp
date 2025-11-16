@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BK SMS</string>
+    <string name="shortcut_send_sms_short_label">Wyślij Sms</string>
+    <string name="shortcut_send_sms_long_label">Wyślij nowego smsa</string>
+    <string name="shortcut_send_sms_disabled">Funkcja wysyłania wiadomości sms jest obecnie niedostępna</string>
+    <string name="shortcut_send_email_short_label">Wyślij Email</string>
+    <string name="shortcut_send_email_long_label">Wyślij nowego emaila</string>
+    <string name="shortcut_send_email_disabled">Funkcja wysyłania wiadomości email jest obecnie niedostępna</string>
+
+
+    <string-array name="messages">
+
+    </string-array>
+</resources>

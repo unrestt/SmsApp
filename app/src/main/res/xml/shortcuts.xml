@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="sms"
+        android:enabled="true"
+        android:icon="@drawable/baseline_sms_24"
+        android:shortcutShortLabel="@string/shortcut_send_sms_short_label"
+        android:shortcutDisabledMessage="@string/shortcut_send_sms_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.activities.SmsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="mail"
+        android:enabled="true"
+        android:icon="@drawable/baseline_mail_24"
+        android:shortcutShortLabel="@string/shortcut_send_email_short_label"
+        android:shortcutDisabledMessage="@string/shortcut_send_email_disabled">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.activities.EmailActivity" />
+        <categories android:name="android.shortcut.conversation" />
+        <capability-binding android:key="actions.intent.CREATE_MESSAGE" />
+    </shortcut>
+</shortcuts>
