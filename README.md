@@ -24,11 +24,15 @@ The app is designed with **Material 3** components for a modern and smooth inter
   - Opens chosen email client with pre-filled data
   - Validation ensures email and message are provided
 
+<img src="screenshots/email.png" width="300" />
+
 - **MMS Activity**
   - Input for phone number
   - Button to select an image from gallery
   - Button to send MMS via chosen communication app
   - Validation ensures phone number is not empty
+
+  <img src="screenshots/mms.png" width="300" />
 
 - **SMS Activity**
   - Input for phone number and message
@@ -40,6 +44,8 @@ The app is designed with **Material 3** components for a modern and smooth inter
   - Captured messages are saved to a `messages.txt` file
   - Button to clear message file
   - Validation ensures phone number and message are not empty
+
+    <img src="screenshots/sms.png" width="300" />
 
 ---
 
@@ -72,6 +78,8 @@ The app is designed with **Material 3** components for a modern and smooth inter
 
 - **Dynamic Shortcuts**
   - Created and managed in `BaseActivity`
+ 
+  <img src="screenshots/shortcuts.png" width="300" />
 
 - **Static Shortcuts**
   - Defined in `shortcuts.xml` and declared in the manifest
@@ -79,10 +87,7 @@ The app is designed with **Material 3** components for a modern and smooth inter
 - **Material 3 FAB Menu**
   - Animated, smooth, and included in each activity layout (`fab_menu.xml`)
 
----
-
-## Screenshots
-*(Add screenshots of each activity here)*
+    <img src="screenshots/menu_gif.gif" width="300" />
 
 ---
 
