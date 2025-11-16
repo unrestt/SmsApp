@@ -95,7 +95,7 @@ The app is designed with **Material 3** components for a modern and smooth inter
 
 1. Clone this repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/unrestt/SmsApp.git
    ```
 2. Open in **Android Studio**
 3. Build and run on an emulator or physical device with **SDK 28+**
